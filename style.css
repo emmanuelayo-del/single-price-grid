@@ -1,0 +1,104 @@
+::before,
+::after,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Karla";
+  background: hsl(218, 22%, 67%);
+}
+
+.container {
+  width: 90%;
+  /* max-width: 250px; */
+  margin: 2em auto;
+}
+@font-face {
+  font-family: "Karla";
+  src: url(/assets/fonts/Karla/Karla-VariableFont_wght.ttf);
+}
+
+.top-section {
+  background: hsl(204, 43%, 93%);
+  padding: 15px;
+}
+
+.join {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 12px;
+}
+
+.thirty-day {
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 12px;
+}
+
+.give-access {
+  color: hsl(218, 22%, 67%);
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.middle-section {
+  padding: 15px;
+  background: hsl(179, 66%, 37%);
+}
+
+.Monthly-Subscription {
+  color: hsl(204, 43%, 93%);
+}
+
+.amount-cta {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-block: 10px;
+}
+.amount {
+  color: hsl(204, 43%, 93%);
+}
+.per-month {
+  color: hsl(204, 43%, 93%);
+}
+
+.full-access {
+  color: hsl(204, 43%, 93%);
+}
+
+.sign-up {
+  background: hsl(71, 73%, 54%);
+  border: none;
+  color: hsl(204, 43%, 93%);
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  margin-block-start: 20px;
+  box-shadow: 0 0 5px 0 hsl(218, 22%, 67%);
+}
+
+.bottom-section {
+  background: hsl(179, 62%, 43%);
+  padding: 15px;
+}
+
+.why-us {
+  color: hsl(204, 43%, 93%);
+  font-size: 15px;
+  margin-block-end: 15px;
+}
+
+.reasons {
+  color: hsl(204, 43%, 93%);
+  font-size: 12px;
+  line-height: 1.4;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
